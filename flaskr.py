@@ -32,6 +32,7 @@ def statistics():
         post_counter = item[1]
 
     return "Get counter: {} Post counter: {}".format(get_counter, post_counter)
+
 @app.route("/statistics")
 def return_to_root():
     main()
